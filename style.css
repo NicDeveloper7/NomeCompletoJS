@@ -1,0 +1,46 @@
+.bloco-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloco-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+
+.bloco-input .botao-exibir {
+    margin: 10px; 
+}
+
+.bloco-exibir {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.botao-exibir {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.botao-exibir:hover {
+    background-color: #0056b3;
+}
